@@ -1,0 +1,47 @@
+/* KanbanBoard.css */
+
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.column h2 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.task {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.task:hover {
+  background-color: #e0e0e0;
+}
